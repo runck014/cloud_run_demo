@@ -9,6 +9,12 @@ Google provides great continuous integration and deployment tools. What these al
 5. Allow unauthenticated invocations
 6. Default everything else
 
+# How to monitor the container Build process
+The best way to do this is to go to the cloud build app at https://console.cloud.google.com/cloud-build/ and watch the history. It's using the history that you can find out what errors occur during the build, if any.
+
+# How to monitor your container while it's running
+Unlike a virtual machine, you can't just SSH into a container on Cloud Run. Instead, you can use the logs for the container at https://console.cloud.google.com/run. Anything that you print to console in your app will show up in these logs along with all other information you'd typically see printed to console. This can be very helpful in debugging.
+
 # Google Billing
 Google charges you to build new containers and to run the container. 
 
