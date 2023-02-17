@@ -4,7 +4,7 @@ Google provides great continuous integration and deployment tools. What these al
 # Steps
 1. Go to Cloud Run at https://console.cloud.google.com/run
 2. Create a Service
-3. Select `Continuously deploy new revisions from a source repository` and connect your repositories `main` branch
+3. Select `Continuously deploy new revisions from a source repository` and connect your repo's `main` branch
 4. Choose compute and memory appropriate for task
 5. Allow unauthenticated invocations
 6. Default everything else
