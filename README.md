@@ -9,6 +9,9 @@ Google provides great continuous integration and deployment tools. What these al
 5. Allow unauthenticated invocations
 6. Default everything else
 
+# Google Billing
+Google charges you to build new containers and to run the container. 
+
 # End Results
 The end result is that when up push a change to your repos main branch, the following process will be triggered:
 - Cloud Build will execute the Dockerfile in the repo to build a container
